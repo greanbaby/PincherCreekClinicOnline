@@ -180,43 +180,6 @@ if ( typeof( setVal ) !== 'string' ) {
 }
 return validName.trim();
 }
-/** function fncGetArrayOfRowsMatching
- *   - given 2 worksheets build a new array of values
- *     that are the rows from worksheet 1 that match worksheet 2, using file one/two
- *     options to specify the columns to use in the comparison.
- * @returns Array of Arrays which can be written into a workbook directly with aoa_to_sheet
- */
-function fncGetArrayOfRowsMatching( ws1, file_one_options, ws2, file_two_options ) {
-  const ws1Values = XLSX.utils.sheet_to_json( ws1, { header:1 } ),
-      ws2Values = XLSX.utils.sheet_to_json( ws2, { header:1 } );
-
-  // update global variables with count of # data rows for each file
-  oneDataRows = ws1Values.length;
-  twoDataRows = ws2Values.length;
-
-  let datavalues = [[]];
-  // loop through all rows of original file to compare
-  for ( let x = 0; x < ws1Values.length; x++ ) {
-      const rowOriginalFileToCompare = ws1Values[ x ];
-      let valCompare = rowOriginalFileToCompare[ file_one_options ],
-          boolMatching = false;
-
-      // loop through all rows of second file used to look for matches
-      for ( let y = 0; y < ws2Values.length; y++ ) {
-          const rowFileTwoMatcher = ws2Values[ y ],
-              valMatcher = rowFileTwoMatcher[ file_two_options ];
-
-          if ( valCompare === valMatcher ) {
-              boolMatching = true;
-              break;
-          }
-      }
-      if ( boolMatching ) {
-          datavalues.push( rowOriginalFileToCompare );
-      }
-  }
-  return datavalues;
-}
 /** function fncGetArrayOfPanelsAddedFromRowsMatching
  *   - given 2 worksheets build a new array of values
  *     that are the rows from worksheet 1 and copying the column value
@@ -275,26 +238,27 @@ return datavalues;
         <h1>Copy Panels</h1>
       </div>
     </div>
+
     <h2>Copy Panel Names From File Two to File One</h2>
 
     <p>The last columns are used generate a new file with matches from file one looking up the panel name from the matching row</p>
     
+
     <div @dragover.prevent
       @drop="handleDrop"
       id="drop_dom_element">
-        Drop .xlsx file here to initiate panel count</div>
+        Drop file one here</div>
     <br>
-
     <div id="results_display">{{ results_display.value.value }}</div>
+
 
     <div @dragover.prevent
       @drop="handleDrop2"
-      id="drop_dom_element2">Drop file two here</div>
+      id="drop_dom_element2">
+        Drop file two here</div>
     <br>
-
     <div id="results_display2">{{ results_display2.value.value }}</div>
 
-    <br>
   </div>
   
 </template>
