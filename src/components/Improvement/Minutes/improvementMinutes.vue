@@ -288,7 +288,7 @@ p.oli {
   font-size: smaller;
 }
 li {
-  font-size: small;
+  font-size: -0.8em;
   list-style-type: circle;
 }
 li.todo {
