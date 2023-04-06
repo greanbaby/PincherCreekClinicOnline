@@ -225,25 +225,14 @@
       <li>For patients we do not receive a certificate for, Naomi will verify from her daily out patient list from hospitals in south zone and the 6 month list she receives from the PCN.  Cheryl Durrant can also verify using the BCM Adjustment statements she receives bi-weekly.  If other staff notice a discrepancy regarding death certificate information, please connect with Naomi asap.</li>
     </ul>
 
-    <p class="tit">SHAW</p>
-      <ul>
-        <li>will be here on site today to switch over the internet from Telus</li>
-      </ul>
 
-    <p class="tit">International Student – Ivan Fernandes</p>
-      <ul>
-        <li>Arriving on Monday March 13th, will be here “Shadowing” for a month.  From Brazil, an R2  physician there but is coming to familiarize himself with the Canadian Health Care system</li>
-      </ul>
-
-    <p class="tit">Physician Assistant</p>
-      <ul>
-        <li>Visited us from Alaska, seeking a position here with AHS.  Medical Affairs is currently working through the red tape to get her set up to work in our ER 4days/week, 10 hour days</li>
-      </ul>
-
-    <p class="tit">National College of Physicians</p>
-      <ul>
-        <li>Jeff submitted a grant for funding for the role of PA or NP in our clinic.  Review process has been extended so we are still waiting on the result of the funding application</li>
-      </ul>  
+    <p class="tit2">Other Notes</p>
+    <ul>
+      <li class="oli2">SHAW will be here on site today to switch over the internet from Telus</li>
+      <li class="oli2">International Student – Ivan Fernandes: Arriving on Monday March 13th, will be here “Shadowing” for a month.  From Brazil, an R2  physician there but is coming to familiarize himself with the Canadian Health Care system</li>
+      <li class="oli2">Physician Assistant: Visited us from Alaska, seeking a position here with AHS.  Medical Affairs is currently working through the red tape to get her set up to work in our ER 4days/week, 10 hour days</li>
+      <li class="oli2">National College of Physicians: Jeff submitted a grant for funding for the role of PA or NP in our clinic.  Review process has been extended so we are still waiting on the result of the funding application</li>
+    </ul>
 
   </section>
 
@@ -263,7 +252,6 @@
     </ul>
     <p class="uti">Maternity Associates will be done at the end of May</p>
     <p class="uti">We, the Associate Clinic, will not longer be doing deliveries after May 31, 2023</p>
-    <p class="uti">Maternity Associates will be done at the end of May</p>
     <p class="uti">Reception is aware to make sure first appointment is booked with the LPN</p>
     <p class="uti">Tickler will be put in for Pertussis injection at 28 weeks</p>
 
@@ -293,6 +281,8 @@
       <li>Transcription will also add diagnoses to a patients chart if the doctor dictates such  and will also put in the surgical history under “Medical history “ in the summary</li>
       <li class="todo">Cheryl will follow-up with the LPN”s on how the “Preventions” process is working</li>
     </ul>
+
+
 
 
     <h4 class="meeting">Meeting adjourned : 9:30am</h4>
@@ -341,6 +331,11 @@ p.tit {
   font-size: 1.2em;
   font-weight: bolder;
 }
+p.tit2 {
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  font-weight: bolder;
+}
 p.uti {
   font-size: 1.1em;
   font-weight: bold;
@@ -362,6 +357,11 @@ li.uti {
 }
 li.oli {
   list-style-type:lower-roman;
+  font-size: smaller;
+}
+li.oli2 {
+  margin-left: -5px;
+  list-style-type: circle;
   font-size: smaller;
 }
 hr {
