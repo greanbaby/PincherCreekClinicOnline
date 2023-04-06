@@ -20,7 +20,7 @@
     <p class="uti">Patient calls or arrives at clinic complaining of UTI (bladder infection) symptoms</p>
     <ul>
       <li class="uti">Pain/burning on voiding</li>
-      <li class="uti">Voding more than usual, frequency</li>
+      <li class="uti">Voiding more than usual, frequency</li>
       <li class="uti">Urinary Urgency</li>
     </ul>
     <p class="uti">Book in the LPN schedule</p>
@@ -141,7 +141,103 @@
   </section>
 
   <section class="meeting">
-    <h2>Feb. 24, 2023</h2>
+    <h2>March 9, 2023</h2>
+
+
+    <p class="tit">DOORS / PHONES SCHEDULE</p>
+    <ul>
+      <li>The phone schedule is creating some barriers for patient access before the clinic closes that needs to be addressed</li>
+      <li class="todo">Jeff and Cheryl Dolan will discuss and come up with a solution</li>
+    </ul>
+    <p class="uti">MONDAY - THURSDAY</p>
+    <ul>
+      <li class="uti">Doors open and phones turned on at 9AM</li>
+      <li class="uti">Phones turned off at 4:00PM</li>
+      <li class="uti">Doors locked at 4:30PM</li>
+    </ul>
+    <p class="uti">FRIDAY</p>
+    <ul>
+      <li class="uti">Doors open and phones turned on at 9AM</li>
+      <li class="uti">Phones turned off at 3:30PM</li>
+      <li class="uti">Doors locked at 3:30PM</li>
+    </ul>
+
+    <br><br>
+    <p class="tit">DOCTORS' SCHEDULE</p>
+    <ul>
+      <li>Dr. Stephens will be working in the ER only as a Locum after March 31</li>
+      <li class="todo">Jeff and Cheryl Dolan will discuss and come up with a solution</li>
+    </ul>
+
+    <p class="uti">FRIDAY AFTERNOONS</p>
+    <ul>
+      <li class="uti">PAP clinic from 2:30 to close – hosted by TB/BB , AR participation will be decided on per Friday</li>
+      <li class="uti">JVB/GP will be doing phone appointments only during the same time period</li>
+    </ul>
+
+    <p class="uti">ALL DAYS</p>
+    <ul>
+      <li class="uti">last hour of the day will be PHONE APPOINTMENTS only for all doctors</li>
+    </ul>
+
+    <br><br>
+
+
+    <p class="tit">Practice Meeting Days</p>
+      <ul>
+        <li class="todo">Reception and nursing staff done at 1pm unless other arrangements have been made with Cheryl Dolan to work longer</li>
+      </ul>
+
+
+
+    <p class="tit">Affiliation forms</p>
+    <ul>
+      <li>completed as of Feb 01: &nbsp;7,545</li>
+      <li>Outstanding forms from Feb 1 deadline: &nbsp;2,032</li>
+      <li>BCM will pay a retroactive top up for forms completed after Feb 1 deadline 
+        as they are entered into the system up to April 30
+      </li>
+      <li>After April 30 deadline, any AF forms completed and entered will be 
+        considered “new” patients in the BCM system and there will be no retro funds for those
+      </li>
+    </ul>
+	 
+    
+    <p class="tit">Alberta Health Care numbers</p>
+    <ul>
+      <li>Need to ensure every patient has one before they are seen in clinic, 
+        without one they will have to pay for their clinic visit
+      </li>
+      <li class="todo">Reception, first point of entry, will confirm the patient has an AHC # when they
+        arrive and check in and will also confirm patient’s contact info (phone & mailing address) 
+        is current and up to date
+      </li>
+    </ul>
+
+
+    <p class="tit">Death status – JUNO</p>
+    <ul>
+      <li>Completed death certificates and any other communications regarding the deaths are given to Naomi to enter into JUNO.</li>
+      <li>Under that patient, doctor name will remain and status will be changed to deceased and status date will be the DOD.  Naomi will remove phone #’s, mailing address and other info that no longer needs to be showing in the chart.</li>
+      <li>Patient’s doctor (whether a doctor or clinic panel) needs to remain for BCM financial purposes.</li>
+      <li>For patients we do not receive a certificate for, Naomi will verify from her daily out patient list from hospitals in south zone and the 6 month list she receives from the PCN.  Cheryl Durrant can also verify using the BCM Adjustment statements she receives bi-weekly.  If other staff notice a discrepancy regarding death certificate information, please connect with Naomi asap.</li>
+    </ul>
+
+
+    <p>
+    •	SHAW will be here on site today to switch over the internet from Telus
+    </p>
+    <p>
+    •	International Student – Ivan Fernandes Arriving on Monday March 13th, will be here “Shadowing” for a month.  From Brazil, an R2  physician there but is coming to familiarize himself with the Canadian Health Care system
+    </p>
+    <p>
+    •	Physician Assistant
+    Visited us from Alaska, seeking a position here with AHS.  Medical Affairs is currently working through the red tape to get her set up to work in our ER 4days/week, 10 hour days.
+    </p>
+    <p>
+    •	National College of Physicians Jeff submitted a grant for funding for the role of PA or NP in our clinic.  Review process has been extended so we are still waiting on the result of the funding application.
+    </p>
+
 
 
   </section>
@@ -208,7 +304,7 @@ hr {
   margin-top: 25px;
 }
 section.meeting {
-  border-top: 2px solid hsla(160, 100%, 37%, 0.5);
+  border-top: 4px solid hsla(160, 100%, 37%, 0.5);
   margin-top: 42px;
 }
 </style>
