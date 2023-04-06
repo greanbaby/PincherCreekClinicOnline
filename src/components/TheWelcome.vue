@@ -11,20 +11,20 @@ import WelcomeItem from './WelcomeItem.vue'
 </script>
 
 <template>
-  <RouterLink to="/guides">
+  <RouterLink to="/improvement">
     <WelcomeItem>
       <template #icon>
-        <img alt="EMR Guide" src="@/assets/hospital-files.svg" width="44" height="44" />
+        <img alt="Improvement" src="@/assets/hospital-files.svg" width="44" height="44" />
       </template>
-      <template #heading>Guides</template>
-      Instructions for data entry so reporting is accurate
+      <template #heading>Improvement</template>
+      Action items and minutes from improvement meetings, guides
     </WelcomeItem>
   </RouterLink>
 
   <RouterLink to="/tools">
     <WelcomeItem>
       <template #icon>
-        <img alt="EMR Guide" src="@/assets/book-key.svg" width="55" height="55" />
+        <img alt="Tools" src="@/assets/book-key.svg" width="55" height="55" />
       </template>
       <template #heading>Tools</template>
       Tools for processing and analyzing spreadsheets
@@ -34,7 +34,7 @@ import WelcomeItem from './WelcomeItem.vue'
   <RouterLink to="/reports">
     <WelcomeItem>
       <template #icon>
-        <img alt="EMR Guide" src="@/assets/statistics.svg" width="77" height="77" />
+        <img alt="Reports" src="@/assets/statistics.svg" width="77" height="77" />
       </template>
       <template #heading>Reports</template>
       Panel Details, Prevention and Screening, No Shows
@@ -44,7 +44,7 @@ import WelcomeItem from './WelcomeItem.vue'
   <RouterLink to="/physician">
     <WelcomeItem>
       <template #icon>
-        <img alt="EMR Guide" src="@/assets/doctor.svg" width="68" height="68" />
+        <img alt="Physician" src="@/assets/doctor.svg" width="68" height="68" />
       </template>
       <template #heading>Physician</template>
 
