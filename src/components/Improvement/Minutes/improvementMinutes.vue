@@ -10,8 +10,8 @@
   </div>
 
   <h2>Improvement Meeting Minutes</h2>
-  <h3>F3 key on desktop to search</h3>
-  <h3>CTRL-HOME returns to top</h3>
+  <h3 class="no-print">F3 key on desktop to search</h3>
+  <h3 class="no-print">CTRL-HOME returns to top</h3>
 
   <section class="meeting">
     <h2>March 23, 2023</h2>
@@ -473,7 +473,7 @@
   
 
   <br><br><br><br>
-  <p>CTRL+HOME jumps to top of page</p>
+  <p class="no-print">CTRL+HOME jumps to top of page</p>
 
 
 </div>
