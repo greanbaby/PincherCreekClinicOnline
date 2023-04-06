@@ -58,7 +58,7 @@ function changePic() {
 </script>
 
 <template>
-  <header>
+  <header class="no-print">
     
     <img :src="randomNumberSource" @click="changePic" width="135" height="135" class="logo">
 
@@ -81,6 +81,11 @@ function changePic() {
 </template>
 
 <style>
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
 body {
   color: #222;
   background-color: white;
