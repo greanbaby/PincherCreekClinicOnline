@@ -166,7 +166,6 @@
     <p class="tit">DOCTORS' SCHEDULE</p>
     <ul>
       <li>Dr. Stephens will be working in the ER only as a Locum after March 31</li>
-      <li class="todo">Jeff and Cheryl Dolan will discuss and come up with a solution</li>
     </ul>
 
     <p class="uti">FRIDAY AFTERNOONS</p>
@@ -223,21 +222,26 @@
       <li>For patients we do not receive a certificate for, Naomi will verify from her daily out patient list from hospitals in south zone and the 6 month list she receives from the PCN.  Cheryl Durrant can also verify using the BCM Adjustment statements she receives bi-weekly.  If other staff notice a discrepancy regarding death certificate information, please connect with Naomi asap.</li>
     </ul>
 
+    <p class="tit">SHAW</p>
+      <ul>
+        <li>will be here on site today to switch over the internet from Telus</li>
+      </ul>
 
-    <p>
-    •	SHAW will be here on site today to switch over the internet from Telus
-    </p>
-    <p>
-    •	International Student – Ivan Fernandes Arriving on Monday March 13th, will be here “Shadowing” for a month.  From Brazil, an R2  physician there but is coming to familiarize himself with the Canadian Health Care system
-    </p>
-    <p>
-    •	Physician Assistant
-    Visited us from Alaska, seeking a position here with AHS.  Medical Affairs is currently working through the red tape to get her set up to work in our ER 4days/week, 10 hour days.
-    </p>
-    <p>
-    •	National College of Physicians Jeff submitted a grant for funding for the role of PA or NP in our clinic.  Review process has been extended so we are still waiting on the result of the funding application.
-    </p>
+    <p class="tit">International Student – Ivan Fernandes</p>
+      <ul>
+        <li>Arriving on Monday March 13th, will be here “Shadowing” for a month.  From Brazil, an R2  physician there but is coming to familiarize himself with the Canadian Health Care system</li>
+      </ul>
 
+    <p class="tit">Physician Assistant</p>
+      <ul>
+        <li>Visited us from Alaska, seeking a position here with AHS.  Medical Affairs is currently working through the red tape to get her set up to work in our ER 4days/week, 10 hour days</li>
+      </ul>
+
+
+    <p class="tit">National College of Physicians</p>
+      <ul>
+        <li>Jeff submitted a grant for funding for the role of PA or NP in our clinic.  Review process has been extended so we are still waiting on the result of the funding application</li>
+      </ul>  
 
 
   </section>
