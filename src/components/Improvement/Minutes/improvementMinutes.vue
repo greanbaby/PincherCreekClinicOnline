@@ -142,6 +142,7 @@
     </ul>
   </section>
 
+
   <section class="meeting">
     <h2>March 9, 2023</h2>
 
@@ -239,14 +240,69 @@
         <li>Visited us from Alaska, seeking a position here with AHS.  Medical Affairs is currently working through the red tape to get her set up to work in our ER 4days/week, 10 hour days</li>
       </ul>
 
-
     <p class="tit">National College of Physicians</p>
       <ul>
         <li>Jeff submitted a grant for funding for the role of PA or NP in our clinic.  Review process has been extended so we are still waiting on the result of the funding application</li>
       </ul>  
 
+  </section>
+
+
+  <section class="meeting">
+    <h2>Feb. 23, 2023</h2>
+    <p class="tit">Prenatal follow up</p>
+    <p class="uti">1. For the initial/transfer or first prenatal patient will be booked 15 mins. earlier with nurse to complete prenatal chart and give folder to patient</p>
+    <ul>
+      <li class="uti">Ensure height is also documented in patient's chart and BMI if possible</li>
+      <li class="uti">If labs are back they will update the chart as well</li>
+      <li class="uti">Tickler to be sent to notify MD at 28 weeks if blood type negative for rhogam and at 30 weeks for dtap</li>
+    </ul>
+    <p class="uti">2. Ongoing prenatal visits MOA to input the BP and weight directly into the prenatal record and not put it in Health Tracker as long as one weight and BP has been recorded within the past year</p>
+    <ul>
+      <li class="uti">Nursing/MOA will review ongoing prenatal charts as they are scheduled to ensure labs are up to date</li>
+    </ul>
+    <p class="uti">Maternity Associates will be done at the end of May</p>
+    <p class="uti">We, the Associate Clinic, will not longer be doing deliveries after May 31, 2023</p>
+    <p class="uti">Maternity Associates will be done at the end of May</p>
+    <p class="uti">Reception is aware to make sure first appointment is booked with the LPN</p>
+    <p class="uti">Tickler will be put in for Pertussis injection at 28 weeks</p>
+
+    
+
+    <br><br><br>
+    <p class="tit">Follow up from Tess re: ED Visits for Asthma/COPD and CHF</p>
+    <p class="uti">Reminder concerning out patient sheets and the discharge diagnosis:  
+      This diagnosis should read URTI / Asthma, 
+      this way we will then know that this patient does have underlying asthma 
+      which could then be put into the disease registry. 
+    </p>
+    
+    <br><br><br>
+    <p class="tit">Screening Process</p>
+    <p class="uti">We will only be using the PREVENTIONS module in Juno EMR for screening from this point forward</p>
+    <ul>
+      <li>LPN Laura and Dr. Bev and Dr. Tracy are setting up a pap clinic on March 7, 2022 to try and increase our  screening numbers</li>
+      <li>Discussion on patients who have had hysterectomies and Jill from the PCN will send out a list to Lisa so that these can be updated as well</li>
+      <li>Discussion on where to put  information for preventions for patients.   Dr. Bev has let us know that they do not look at the Health Tracker to find out patients information about their preventions. There are many ways to put preventions into Juno, however as discussed we need to have one place that all clinic staff and doctors will be able to locate the information.  After a lengthy discussion it was decided that we would only use “Preventions” to collect this information</li>
+      <li>As follows:</li>
+      <li>Go to Summary </li>
+      <li>Left column at the top “ Preventions” </li>
+      <li>Click on any of the following listed and it will bring you to the Preventions list. This is where you will add your information. An email will be sent out with the same information to all staff and doctors. 
+        We will also be using the Disease Registry to register all diagnoses including: Diabetes, hypertension, diverticulosis, etc. </li>
+      <li class="todo">If there are any questions please don’t hesitate to ask Cheryl Dolan</li>
+      <li>Transcription will also add diagnoses to a patients chart if the doctor dictates such  and will also put in the surgical history under “Medical history “ in the summary</li>
+      <li class="todo">Cheryl will follow-up with the LPN”s on how the “Preventions” process is working</li>
+    </ul>
+
+
+    <h4 class="meeting">Meeting adjourned : 9:30am</h4>
 
   </section>
+
+
+
+<br><br><br><br>
+
 
 
 </div>
