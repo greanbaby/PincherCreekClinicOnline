@@ -67,7 +67,7 @@ function changePic() {
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/guides">Guides</RouterLink>
+        <RouterLink to="/improvement">Improvement</RouterLink>
         <RouterLink to="/physician">Physician</RouterLink>
         <RouterLink to="/reports">Reports</RouterLink>
         <RouterLink to="/tools">Tools</RouterLink>

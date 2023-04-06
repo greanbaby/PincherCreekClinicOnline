@@ -3,10 +3,10 @@
     <div class="flex-column">
       <div class="column-item">
         <img alt="Anxious" src="@/assets/anxious-face.svg" width="100" height="100" />
-        <img alt="Alarm" src="@/assets/alarm-clock.svg" width="100" height="100" />
+
       </div>
       <div class="column-item">
-        <p>No Shows report is under construction (Apr. 2, 2023)</p>
+        <p>Improvement Minutes</p>
       </div>
     </div>
   </div>

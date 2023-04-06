@@ -82,8 +82,8 @@ const chosenReportDetails = computed(() => {
       <thead>
         <tr>
           <th scope="col">Category</th>
-          <th scope="col">Numerator</th>
-          <th scope="col">Denominator</th>
+          <th scope="col">Dividend</th>
+          <th scope="col">Divisor</th>
           <th scope="col" class="strongly">%</th>
           <th scope="col" v-if="docchosen.docvalue!=='TOTAL'">Clinic Average</th>
         </tr>

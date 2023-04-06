@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
-const results_display = ref({ value: '' });
-const results_display2 = ref({ value: '' });
+const results_display = ref('');
+const results_display2 = ref('');
 /* globals wb and ws containing file_one workbook and worksheet */
 var wb;
 var ws;
@@ -30,7 +30,7 @@ function handleDrop( e ) {
     let strDisplay = '# data rows: ' + sheetData.length;
 
     /* display results to user */
-    results_display.value.value = strDisplay;
+    results_display.value = strDisplay;
 
   };
   reader.readAsArrayBuffer( f );
@@ -55,7 +55,7 @@ function handleDrop2( e ) {
     let strDisplay2 = '# data rows: ' + sheetData2.length;
 
     /* display results to user */
-    results_display2.value.value = strDisplay2;
+    results_display2.value = strDisplay2;
 
     /* generate new workbook with only rows from file1 matching file2 by the last columns */
     const newWorkBook = newWB( "Matches" );
@@ -186,7 +186,7 @@ return validName.trim();
  *     options to specify the columns to use in the comparison.
  * @returns Array of Arrays which can be written into a workbook directly with aoa_to_sheet
  */
- function fncGetArrayOfRowsMatching( ws1, file_one_options, ws2, file_two_options ) {
+function fncGetArrayOfRowsMatching( ws1, file_one_options, ws2, file_two_options ) {
   const ws1Values = XLSX.utils.sheet_to_json( ws1, { header:1 } ),
       ws2Values = XLSX.utils.sheet_to_json( ws2, { header:1 } );
 
@@ -222,7 +222,7 @@ return validName.trim();
   <div class="tool">
     <div class="flex-column">
       <div class="column-item">
-        <img alt="Tool Match Files" src="@/assets/matching.svg" width="80" height="80" />
+        <img alt="Tool Match Files" src="@/assets/matching.svg" width="70" height="70" />
       </div>
       <div class="column-item">
         <h1>Match Rows</h1>
