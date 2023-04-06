@@ -389,19 +389,88 @@
         patients with concerns to discuss them with their physician.</p></li>
       </ul>
     </ul>
-    <p style="line-height: 108%; margin-bottom: 0in"><br/>
-
-    </p>
-    <p style="line-height: 108%; margin-bottom: 0.11in"><br/>
-    <br/>
-
-    </p>
-    <p style="line-height: 108%; margin-bottom: 0in"><br/>
-
-    </p>
     
   </section>
 
+
+  <section class="meeting">
+    <h2>Feb. 2, 2023</h2>
+    <p class="tit">Follow up from January 26 meeting</p>
+    <p class="uti">Follow up cervical screening challenge</p>
+    <ul>
+      <li class="uti">Still a lot of no shows. In January Laura had 38 paps booked and 11 of these were no shows</li>
+      <li>Tagging the appts the docs are finding very helpful. Those appt booked with short notice are being missed but we are getting the majority</li>
+      <li>Bev and Tracy looking at doing a pap ONLY clinic one Saturday</li>
+      <li>Would have to be very scripted that this is for a pap only and nothing else will be discussed. 10 minutes per appt</li>
+      <li>Would need 1 person to work as MOA and 1 reception to work those dates.  Support from staff on this</li>
+    </ul>
+    <br>
+
+
+    <p class="tit">Prental Process</p>
+    <p class="uti">Update to process to involve nursing moving forward</p>
+    <ul>
+      <li>1st prenatals will be meeting with LPN 15 min before their appt with physician to start the prenatal record and get weight etc. </li>
+      <li class="todo">Scott will create a pregnancy template to catch those patients closer to 20 weeks.</li>
+      <li class="todo">Joanne will continue to follow up with Juno to find out how prenatals should be closed.</li>
+    </ul>
+    <br>
+
+
+    <p class="tit">Diagnosis List</p>
+    <p class="uti">This is best captured in the DISEASE REGISTRY</p>
+    <p>Need to inform</p>
+    <ul>
+      <li>Physicians</li>
+      <li>Nursing</li>
+      <li>Transcription</li>
+    </ul>
+    <br>
+
+
+    <p class="tit">Additional Functionality</p>
+    <p class="uti">Review of Grease Monkey functions for lab review and where to apply next.   Continued from last meeting</p>
+    <ul>
+      <li>FITs will be the next one</li>
+      <li class="todo">Scott will work on this</li>
+    </ul>
+    <br>
+
+
+    <p class="tit">Affiliation Forms</p>
+    <p class="uti">Forms still needed as of Feb. 1 is about 2,700</p>
+    <ul>
+      <li>Discussion about creating an “unaffiliated panel” for those who have not signed 
+        to make it easy for reception to catch those trying to book appts 
+        if no form as well as prescription refills coming in</li>
+      <li>Would be much easier/faster on reception  if able to see MRP</li>
+      <li>Forms for all of Ashley’s panel not done yet have been mailed out</li>
+      <li>Clinic panel  forms will be done being mailed to those not signed today</li>
+      <li>Then we will continue to move on to other physicians</li>
+      <li class="todo">Scott will look at prioritizing to see if Grease monkey can display MRP</li>
+      <li>Prescription refills are being sent back now on those patients who have not signed. Next steps pending if Scott is able to create the MRP showing in Juno.</li>
+    </ul>
+    <br>
+
+
+    <p class="tit">Entering follow ups and refusals of care</p>
+    <p class="uti">Scott's feedback for inputting refusals:</p>
+    <ul>
+      <li>Regarding the “Refused” entries for Preventions in Juno that we were talking about last Thursday:</li>
+      <li class="todo">If you could also put the Next Date for these Refused entries then that would be great because all of the current reporting should just work if we do it this way.</li>
+      <li class="todo">So, we would put “Pap” preventions, “Refused” and “Next Date” of 1 year from now</li>
+    </ul>
+    <p class="uti">Further discussion and next steps:</p>
+    <ul>
+      <li>Last meeting Lisa was separating each prevention under its own category however this has went back to original as it was too “messy”.</li>
+      <li>Scott’s working on screening numbers he will come up with something to be displayed  in coffee room on an ongoing basis so it can be visualized for staff</li>
+    </ul>
+
+
+  </section>
+
+
+  
 
   <br><br><br><br>
   <p>CTRL+HOME jumps to top of page</p>
