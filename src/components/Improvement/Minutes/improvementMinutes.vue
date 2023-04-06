@@ -123,7 +123,7 @@
     <p class="oli">Thanks to those of you who joined us for FPS (any ideas for improvement from this</p>
 
 
-    <h4 class="meeting">Meeting adjourned : 9:34am</h4>
+    <h4 class="meeting">Meeting adjourned : March 23 9:34am</h4>
 
 
     <p class="tit">After our meeting was adjourned</p>
@@ -304,11 +304,11 @@
     <p class="article">Symptomatic urinary tract infection patients will come in and drop off a urine. At this time nursing will get a history , check the urine and then nursing will discuss with the doctor if patient will need to be seen. </p>
     <p class="article">Dr. Ashley Rommens let us know about the Booking Bible, this includes the following criteria: 
       <ul>
-        <li>-	Under 10</li>
-        <li>-	Male </li>
-        <li>-	Pregnant </li>
-        <li>-	Has had one urinary tract infection already within the month </li>
-        <li>-	Catheter patients </li>
+        <li>Under 10</li>
+        <li>Male </li>
+        <li>Pregnant </li>
+        <li>Has had one urinary tract infection already within the month </li>
+        <li>Catheter patients </li>
       </ul>
 
     <p class="article">These patients will need to be seen by a physician. </p>
@@ -322,15 +322,89 @@
     <p class="uti">Screening thru Life – meeting with them on March 8 about process and concerns of being unable to select physician , RE: Fit Kits </p>
 
 
-    <h4 class="meeting">Meeting adjourned : 9:30am</h4>
+    <h4 class="meeting">Meeting adjourned : Feb. 23 9:30am</h4>
 
   </section>
 
   
+  <section class="meeting">
+    <h2>Feb. 9, 2023</h2>
+
+    <ul>
+      <li><p style="line-height: 108%; margin-bottom: 0in">AHS visitors at
+      the clinic yesterday, Feb 8<sup>th</sup></p></li>
+      <ul>
+        <li><p style="line-height: 108%; margin-bottom: 0in">Preparing
+        doctors for <b>Connect Care</b> transition, the new provincial EMR
+        for hospitals.</p></li>
+        <ul>
+          <li><p style="line-height: 108%; margin-bottom: 0in">Connect Care
+          will replace Meditech, at our site and in the South come November
+          2023; training will take place over the summer.</p></li>
+        </ul>
+      </ul>
+      <li><p style="line-height: 108%; margin-bottom: 0in">Jeff talked
+      with Dustin Wolf (Piikani Health) regarding re-establishing a
+      connection with the clinic.  Pre-Covid, 1 doctor and a staff member
+      from the clinic, would go out to Brocket and see patients 1
+      day/week.  Jeff will set up a time to meet with Dustin’s team to
+      get this going again.</p></li>
+      <li><p style="line-height: 108%; margin-bottom: 0in">Pincher Creek
+      has a Recruitment and Attraction Committee that Jeff is a part of
+      that will be reconvening.  It is a community driven group that works
+      on attracting individuals to work in our community in various
+      occupations.  First meeting will be here at the Clinic after hours
+      on Feb 15.</p></li>
+      <li><p style="line-height: 108%; margin-bottom: 0in">CRC screenings</p></li>
+      <ul>
+        <li><p style="line-height: 108%; margin-bottom: 0in">Look at doing
+        Saturday appointments for pre-booked PAPS on an OBS On-Call backup
+        date; first one coming up is Saturday, Feb 18<sup>th</sup>.  If we
+        can establish the staffing requirements, then we can book patients.
+        Staff will decide if this works and communicate with Jeff to
+        proceed and work out details.</p></li>
+      </ul>
+      <li><p style="line-height: 108%; margin-bottom: 0in">Chairs – dire
+      need to upgrade office chairs for any staff who need them.  Jeff
+      will put a plan together to proceed with this project.  The doctors
+      have approved this purchase.</p></li>
+      <li><p style="line-height: 108%; margin-bottom: 0in">Proposal for
+      funds with College of Physicians of Canada:</p></li>
+      <ul>
+        <li><p style="line-height: 108%; margin-bottom: 0in">Jeff will be
+        working on applying for a grant for funds for our clinic, which
+        could include money for positions such as a Physician Assistant,
+        Nurse Practitioner, RN or LPN.</p></li>
+      </ul>
+      <li><p style="line-height: 108%; margin-bottom: 0in">Medical Affairs
+      connected with our doctors after Jared’s letter/news coverage in
+      Pincher Creek and recognize how under supported rural maternity is. 
+        </p></li>
+      <ul>
+        <li><p style="line-height: 108%; margin-bottom: 0in">NO prenatal
+        visits will be booked for patients outside of our community.</p></li>
+        <li><p style="line-height: 108%; margin-bottom: 0in">NO OBS
+        coverage in Pincher Creek after May 31/23</p></li>
+        <li><p style="line-height: 108%; margin-bottom: 0in">Please direct
+        patients with concerns to discuss them with their physician.</p></li>
+      </ul>
+    </ul>
+    <p style="line-height: 108%; margin-bottom: 0in"><br/>
+
+    </p>
+    <p style="line-height: 108%; margin-bottom: 0.11in"><br/>
+    <br/>
+
+    </p>
+    <p style="line-height: 108%; margin-bottom: 0in"><br/>
+
+    </p>
+    
+  </section>
 
 
-<br><br><br><br>
-<p>CTRL+HOME jumps to top of page</p>
+  <br><br><br><br>
+  <p>CTRL+HOME jumps to top of page</p>
 
 
 </div>
