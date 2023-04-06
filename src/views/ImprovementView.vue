@@ -9,7 +9,7 @@ import { ref } from 'vue';
 import Actions from '/src/components/Improvement/Actions/improvementActions.vue';
 import Minutes from '/src/components/Improvement/Minutes/improvementMinutes.vue';
 
-const currentTab = ref('Actions');
+const currentTab = ref('Minutes');
 
 const tabs = {
   Actions,
