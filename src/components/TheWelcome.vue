@@ -21,16 +21,17 @@ import WelcomeItem from './WelcomeItem.vue'
     </WelcomeItem>
   </RouterLink>
 
-  <RouterLink to="/tools">
+  <RouterLink to="/physician">
     <WelcomeItem>
       <template #icon>
-        <img alt="Tools" src="@/assets/book-key.svg" width="55" height="55" />
+        <img alt="Physician" src="@/assets/doctor.svg" width="68" height="68" />
       </template>
-      <template #heading>Tools</template>
-      Tools for processing and analyzing spreadsheets
+      <template #heading>Physician</template>
+
+      Physician individual focus and summaries
     </WelcomeItem>
   </RouterLink>
-
+  
   <RouterLink to="/reports">
     <WelcomeItem>
       <template #icon>
@@ -41,14 +42,13 @@ import WelcomeItem from './WelcomeItem.vue'
     </WelcomeItem>
   </RouterLink>
 
-  <RouterLink to="/physician">
+  <RouterLink to="/tools">
     <WelcomeItem>
       <template #icon>
-        <img alt="Physician" src="@/assets/doctor.svg" width="68" height="68" />
+        <img alt="Tools" src="@/assets/book-key.svg" width="55" height="55" />
       </template>
-      <template #heading>Physician</template>
-
-      Physician individual focus and summaries
+      <template #heading>Tools</template>
+      Tools for processing and analyzing spreadsheets
     </WelcomeItem>
   </RouterLink>
 
