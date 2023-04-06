@@ -9,7 +9,7 @@
     </div>
   </div>
 
-  <h2>To-Do Items From Improvement Meetings</h2>
+  <h2>Action Items From Improvement Meetings</h2>
 
   <hr>
 

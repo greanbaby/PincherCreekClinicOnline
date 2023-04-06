@@ -269,7 +269,7 @@
     <p class="tit">Screening Process</p>
     <p class="uti">We will only be using the PREVENTIONS module in Juno EMR for screening from this point forward</p>
     <ul>
-      <li>LPN Laura and Dr. Bev and Dr. Tracy are setting up a pap clinic on March 7, 2022 to try and increase our  screening numbers</li>
+      <li>LPN Laura and Dr. Bev and Dr. Tracy are setting up a pap clinic on March 7, 2023 to try and increase our  screening numbers</li>
       <li>Discussion on patients who have had hysterectomies and Jill from the PCN will send out a list to Lisa so that these can be updated as well</li>
       <li>Discussion on where to put  information for preventions for patients.   Dr. Bev has let us know that they do not look at the Health Tracker to find out patients information about their preventions. There are many ways to put preventions into Juno, however as discussed we need to have one place that all clinic staff and doctors will be able to locate the information.  After a lengthy discussion it was decided that we would only use “Preventions” to collect this information</li>
       <li>As follows:</li>
@@ -283,16 +283,54 @@
     </ul>
 
 
+    <p class="tit">Lab Changes</p>
+    <ul>
+      <li>There will changes to home draws. Forms will go to Dynalife</li>
+      <li>Julie will email this information to all staff and doctors</li>
+      <li>Changes to Tricomosis , Julie will scan this and email this information to all staff and doctors as well </li>
+    </ul>
+
+
+    <p class="tit">Affiliation Forms</p>
+    <ul>
+      <li>Please see the attached numbers for Affiliation Forms</li>
+      <li>Any patient going forward from today will need to have an affiliation form completed prior to having an appointment with a doctor. This also includes prescriptions ,  Home Care requisitions</li>
+      <li>We are concerned about those patients being able to book online appointments but a discussion was held and we are looking into changing the text message that goes out. This might include the following information, “ if you have not signed an affiliation form with our clinic prior to your appointment, your appointment will be cancelled “ </li>
+      <li>More information on this to be followed</li>
+    </ul>
+
+
+    <p class="tit">UTI Process</p>
+    <p class="article">Symptomatic urinary tract infection patients will come in and drop off a urine. At this time nursing will get a history , check the urine and then nursing will discuss with the doctor if patient will need to be seen. </p>
+    <p class="article">Dr. Ashley Rommens let us know about the Booking Bible, this includes the following criteria: 
+      <ul>
+        <li>-	Under 10</li>
+        <li>-	Male </li>
+        <li>-	Pregnant </li>
+        <li>-	Has had one urinary tract infection already within the month </li>
+        <li>-	Catheter patients </li>
+      </ul>
+
+    <p class="article">These patients will need to be seen by a physician. </p>
+    </p>
+    <p class="article">
+      If patients do not meet the above requirements then this would save valuable time for our doctors not having to make a phone call , LPN’s would be able to do this on their behalf. 
+    </p>
+
+
+    <p class="tit">PCN Update</p>
+    <p class="uti">Screening thru Life – meeting with them on March 8 about process and concerns of being unable to select physician , RE: Fit Kits </p>
 
 
     <h4 class="meeting">Meeting adjourned : 9:30am</h4>
 
   </section>
 
+  
 
 
 <br><br><br><br>
-
+<p>CTRL+HOME jumps to top of page</p>
 
 
 </div>
@@ -320,11 +358,15 @@ h3 {
   padding-left: 55px;
 }
 h4.meeting {
+  margin-top: 20px;
   letter-spacing: 2px;
 }
 p {
   padding-top: 12px;
   padding-left: 10px;
+}
+p.article {
+  padding-left: 40px;
 }
 p.tit {
   letter-spacing: 1px;
