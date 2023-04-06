@@ -292,7 +292,7 @@ li {
   list-style-type: circle;
 }
 li.todo {
-  font-size: medium;
+  font-size: 1.2em;
   font-style: italic;
 }
 li.uti {
