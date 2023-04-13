@@ -171,7 +171,7 @@ const chosenReportDetails = computed(() => {
 </template>
 <style scoped>
 .flex-column {
-  margin-top: 10px;
+  margin-top: 1px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
@@ -179,7 +179,7 @@ const chosenReportDetails = computed(() => {
 /* grid-template-columns: 1fr 1fr; */
 .column-item {
   padding: 0px;
-  margin-top:10px;
+  margin-top:1px;
 }
 .rptWrap {
   border: 1px solid hsla(160, 100%, 37%, 0.5);
