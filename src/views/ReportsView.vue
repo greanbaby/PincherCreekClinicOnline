@@ -19,8 +19,154 @@ const tabs = {
 }
 
 const repertoires = ref([
-    // Mar. 7, 2023  
-    {
+  // Apr. 10, 2023  (Month is 0-indexed)
+  {
+    time_period: new Date(2023,3,10),
+    touchstones: [
+      // A_Rommens
+      {
+        physician: "A_Rommens",
+        BP_Numerator: 405,
+        BP_Denominator: 962,
+        CRC_Numerator: 164,
+        CRC_Denominator: 385,
+        Exercise_Numerator: 380,
+        Exercise_Denominator: 962,
+        Height_Numerator: 925,
+        Height_Denominator: 962,
+        Mammo_Numerator: 138,
+        Mammo_Denominator: 268,
+        Pap_Numerator: 213,
+        Pap_Denominator: 393,
+        Smoking_Numerator: 384,
+        Smoking_Denominator: 962,
+        Weight_Numerator: 622,
+        Weight_Denominator: 962,
+      },
+      // B_Burton
+      {
+        physician: "B_Burton",
+        BP_Numerator: 531,
+        BP_Denominator: 1149,
+        CRC_Numerator: 148,
+        CRC_Denominator: 420,
+        Exercise_Numerator: 498,
+        Exercise_Denominator: 1149,
+        Height_Numerator: 1092,
+        Height_Denominator: 1149,
+        Mammo_Numerator: 168,
+        Mammo_Denominator: 296,
+        Pap_Numerator: 242,
+        Pap_Denominator: 461,
+        Smoking_Numerator: 506,
+        Smoking_Denominator: 1149,
+        Weight_Numerator: 747,
+        Weight_Denominator: 1149,
+      },
+      // Clinic_Panel
+      {
+        physician: "Clinic_Panel",
+        BP_Numerator: 761,
+        BP_Denominator: 1946,
+        CRC_Numerator: 236,
+        CRC_Denominator: 765,
+        Exercise_Numerator: 779,
+        Exercise_Denominator: 1946,
+        Height_Numerator: 1715,
+        Height_Denominator: 1946,
+        Mammo_Numerator: 120,
+        Mammo_Denominator: 318,
+        Pap_Numerator: 235,
+        Pap_Denominator: 587,
+        Smoking_Numerator: 780,
+        Smoking_Denominator: 1946,
+        Weight_Numerator: 1114,
+        Weight_Denominator: 1946,
+      },
+      // G_Parker
+      {
+        physician: "G_Parker",
+        BP_Numerator: 423,
+        BP_Denominator: 1374,
+        CRC_Numerator: 180,
+        CRC_Denominator: 592,
+        Exercise_Numerator: 431,
+        Exercise_Denominator: 1374,
+        Height_Numerator: 1256,
+        Height_Denominator: 1374,
+        Mammo_Numerator: 111,
+        Mammo_Denominator: 254,
+        Pap_Numerator: 160,
+        Pap_Denominator: 334,
+        Smoking_Numerator: 430,
+        Smoking_Denominator: 1374,
+        Weight_Numerator: 713,
+        Weight_Denominator: 1374,
+      },
+      // J_Van_Bussel
+      {
+        physician: "J_Van_Bussel",
+        BP_Numerator: 287,
+        BP_Denominator: 722,
+        CRC_Numerator: 120,
+        CRC_Denominator: 304,
+        Exercise_Numerator: 283,
+        Exercise_Denominator: 722,
+        Height_Numerator: 692,
+        Height_Denominator: 722,
+        Mammo_Numerator: 63,
+        Mammo_Denominator: 119,
+        Pap_Numerator: 79,
+        Pap_Denominator: 191,
+        Smoking_Numerator: 284,
+        Smoking_Denominator: 722,
+        Weight_Numerator: 441,
+        Weight_Denominator: 722,
+      },
+      // T_Burton
+      {
+        physician: "T_Burton",
+        BP_Numerator: 546,
+        BP_Denominator: 1203,
+        CRC_Numerator: 184,
+        CRC_Denominator: 458,
+        Exercise_Numerator: 515,
+        Exercise_Denominator: 1203,
+        Height_Numerator: 1130,
+        Height_Denominator: 1203,
+        Mammo_Numerator: 160,
+        Mammo_Denominator: 320,
+        Pap_Numerator: 253,
+        Pap_Denominator: 456,
+        Smoking_Numerator: 518,
+        Smoking_Denominator: 1203,
+        Weight_Numerator: 803,
+        Weight_Denominator: 1203,
+      },
+      // TOTAL
+      {
+        physician: "TOTAL",
+        BP_Numerator: 2953,
+        BP_Denominator: 7364,
+        CRC_Numerator: 1032,
+        CRC_Denominator: 2926,
+        Exercise_Numerator: 2886,
+        Exercise_Denominator: 7364,
+        Height_Numerator: 6811,
+        Height_Denominator: 7364,
+        Mammo_Numerator: 760,
+        Mammo_Denominator: 1578,
+        Pap_Numerator: 1182,
+        Pap_Denominator: 2424,
+        Smoking_Numerator: 2902,
+        Smoking_Denominator: 7364,
+        Weight_Numerator: 4440,
+        Weight_Denominator: 7364,
+      }
+    ]
+  },
+  // Mar. 7, 2023  
+  {
     time_period: new Date(2023,2,7),
     touchstones: [
       // A_Rommens
@@ -458,7 +604,6 @@ const repertoires = ref([
     ]
   }
 
-  
 ]);
 
 </script>

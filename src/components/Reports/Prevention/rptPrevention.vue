@@ -15,7 +15,7 @@ import ReportAdults from '/src/components/Reports/Prevention/rptPatients18AndOld
 
 import { reactive, computed } from 'vue';
 
-const datechosen = reactive({ datevalue: 'Tue Mar 07 2023' });
+const datechosen = reactive({ datevalue: 'Mon Apr 10 2023' });
 const docchosen = reactive({ docvalue: 'TOTAL' });
 
 const myProps = defineProps([ 'repertoires', 'physicians' ]);

@@ -1,3 +1,5 @@
-# pinchercreekcliniconline
+# Pincher Creek Clinic Online
 
-This is the Pincher Creek Clinic Online built with Vue3 and DALL-E
+This is the Pincher Creek Clinic Online.
+
+Created March 2023
