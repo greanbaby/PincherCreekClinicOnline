@@ -6,13 +6,15 @@
  * @author Scott Gingras March 30, 2023
  */
 import { ref } from 'vue';
+import Handouts from '/src/components/Tools/Handouts.vue';
 import AddPanelNames from '/src/components/Tools/AddPanelNames/toolAddPanelNames.vue';
 import PanelCount from '/src/components/Tools/PanelCount/toolPanelCount.vue';
 import RemoveRowsNotMatching from '/src/components/Tools/RemoveRowsNotMatching/toolRemoveRowsNotMatching.vue';
 
-const currentTab = ref('PanelCount');
+const currentTab = ref('Handouts');
 
 const tabs = {
+  Handouts,
   AddPanelNames,
   PanelCount,
   RemoveRowsNotMatching
