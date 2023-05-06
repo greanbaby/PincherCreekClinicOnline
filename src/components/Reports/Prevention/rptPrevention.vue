@@ -61,18 +61,19 @@ const chosenReportDetails = computed(() => {
           </select>
 
         </p>
-      </div>
-      <div class="column-item">
         <p>CHOOSE PHYSICIAN:<br>
         
-          <select v-model="docchosen.docvalue">
-            <option disabled value="">Please select one</option>
-            <option v-for="doc in physicians" :key="doc">
-              {{ doc.name }}
-            </option>
-          </select>
+        <select v-model="docchosen.docvalue">
+          <option disabled value="">Please select one</option>
+          <option v-for="doc in physicians" :key="doc">
+            {{ doc.name }}
+          </option>
+        </select>
 
-        </p>
+      </p>
+      </div>
+      <div class="column-item">
+        
       </div>
     </div>
 
@@ -170,21 +171,5 @@ const chosenReportDetails = computed(() => {
   
 </template>
 <style scoped>
-.flex-column {
-  margin-top: 1px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 15px;
-}
-/* grid-template-columns: 1fr 1fr; */
-.column-item {
-  padding: 0px;
-  margin-top:1px;
-}
-.rptWrap {
-  border: 1px solid hsla(160, 100%, 37%, 0.5);
-  border-bottom: 0px;
-  margin-top: 0px;
-  padding: 6px;
-}
+
 </style>

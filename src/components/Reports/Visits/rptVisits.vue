@@ -23,6 +23,7 @@ const chosenVisits = computed(() => {
     <div class="flex-column">
       <div class="column-item">
         <h3>Visits for Attending Providers</h3>
+        <img alt="Visits" src="@/assets/help-others.svg" width="100" height="100" />
       </div>
       <div class="column-item">
         
