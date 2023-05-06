@@ -8,13 +8,15 @@
 import { ref } from 'vue';
 import Prevention from '/src/components/Reports/Prevention/rptPrevention.vue';
 import NoShows from '/src/components/Reports/NoShows/rptNoShows.vue';
-defineProps(['repertoires', 'physicians']);
+import Visits from '/src/components/Reports/Visits/rptVisits.vue'
+defineProps(['repertoires', 'physicians', 'noshows', 'visits']);
 
 const currentTab = ref('Prevention');
 
 const tabs = {
   NoShows,
-  Prevention
+  Prevention,
+  Visits
   
 }
 
@@ -606,6 +608,334 @@ const repertoires = ref([
 
 ]);
 
+const noshows = ref([
+  // Apr. 20, 2023  (Month is 0-indexed)
+  {
+    time_period: new Date(2023,3,20),
+    touchstones: [
+      // Appointments_Nursing
+      {
+        provider: "Appointments_Nursing",
+        noshows_1month: 16,
+        noshows_3month: 43,
+        noshows_6month: 77,
+        noshows_12month: 121,
+      },
+      // Burton_Bev
+      {
+        provider: "Burton_Bev",
+        noshows_1month: 16,
+        noshows_3month: 45,
+        noshows_6month: 100,
+        noshows_12month: 175,
+      },
+      // Burton_Tracy
+      {
+        provider: "Burton_Tracy",
+        noshows_1month: 12,
+        noshows_3month: 29,
+        noshows_6month: 59,
+        noshows_12month: 113,
+      },
+      // Craig_Tess
+      {
+        provider: "Craig_Tess",
+        noshows_1month: 2,
+        noshows_3month: 3,
+        noshows_6month: 6,
+        noshows_12month: 7,
+      },
+      // Dolan_Cheryl
+      {
+        provider: "Dolan_Cheryl",
+        noshows_1month: 9,
+        noshows_3month: 28,
+        noshows_6month: 61,
+        noshows_12month: 143,
+      },
+      // Gelber_Tobias
+      {
+        provider: "Gelber_Tobias",
+        noshows_1month: 0,
+        noshows_3month: 0,
+        noshows_6month: 0,
+        noshows_12month: 36,
+      },
+      // Gerber_Susan
+      {
+        provider: "Gerber_Susan",
+        noshows_1month: 1,
+        noshows_3month: 4,
+        noshows_6month: 6,
+        noshows_12month: 13,
+      },
+      // Hackett_Finola
+      {
+        provider: "Hackett_Finola",
+        noshows_1month: 0,
+        noshows_3month: 1,
+        noshows_6month: 1,
+        noshows_12month: 1,
+      },
+      // Kiss_Douglas
+      {
+        provider: "Kiss_Douglas",
+        noshows_1month: 0,
+        noshows_3month: 0,
+        noshows_6month: 2,
+        noshows_12month: 15,
+      },
+      // Lach_Christopher
+      {
+        provider: "Lach_Christopher",
+        noshows_1month: 0,
+        noshows_3month: 0,
+        noshows_6month: 62,
+        noshows_12month: 97,
+      },
+      // Lewis_Larissa
+      {
+        provider: "Lewis_Larissa",
+        noshows_1month: 1,
+        noshows_3month: 5,
+        noshows_6month: 5,
+        noshows_12month: 7,
+      },
+      // Mitchell_Cathy
+      {
+        provider: "Mitchell_Cathy",
+        noshows_1month: 2,
+        noshows_3month: 7,
+        noshows_6month: 13,
+        noshows_12month: 19,
+      },
+      // Parker_Gavin
+      {
+        provider: "Parker_Gavin",
+        noshows_1month: 24,
+        noshows_3month: 55,
+        noshows_6month: 105,
+        noshows_12month: 299,
+      },
+      // Quick_Jacqueline
+      {
+        provider: "Quick_Jacqueline",
+        noshows_1month: 1,
+        noshows_3month: 6,
+        noshows_6month: 13,
+        noshows_12month: 28,
+      },
+      // Rommens_Ashley
+      {
+        provider: "Rommens_Ashley",
+        noshows_1month: 20,
+        noshows_3month: 35,
+        noshows_6month: 63,
+        noshows_12month: 156,
+      },
+      // Shamsi_Shahrab_Parisa
+      {
+        provider: "Shamsi_Shahrab_Parisa",
+        noshows_1month: 0,
+        noshows_3month: 0,
+        noshows_6month: 0,
+        noshows_12month: 1,
+      },
+      // Stephens_Mark
+      {
+        provider: "Stephens_Mark",
+        noshows_1month: 0,
+        noshows_3month: 7,
+        noshows_6month: 9,
+        noshows_12month: 9,
+      },
+      // Van_Bussel_Jared
+      {
+        provider: "Van_Bussel_Jared",
+        noshows_1month: 9,
+        noshows_3month: 13,
+        noshows_6month: 38,
+        noshows_12month: 91,
+      },
+      // Z_TOTAL
+      {
+        provider: "Z_TOTAL",
+        noshows_1month: 113,
+        noshows_3month: 281,
+        noshows_6month: 620,
+        noshows_12month: 1331,
+      }
+    ]
+  }
+
+]);
+
+const visits = ref([
+  // Apr. 25, 2023  (Month is 0-indexed)
+  {
+    time_period: new Date(2023,3,25),
+    touchstones: [
+      // Appointments_Nursing
+      {
+        provider: "Appointments_Nursing",
+        visits_1month: 207,
+        visits_3month: 483,
+        visits_6month: 806,
+        visits_12month: 1365,
+      },
+      {
+        provider: "Bailey_Robert",
+        visits_1month: 0,
+        visits_3month: 18,
+        visits_6month: 18,
+        visits_12month: 18,
+      },
+      {
+        provider: "Biernacki_Mark",
+        visits_1month: 0,
+        visits_3month: 0,
+        visits_6month: 6,
+        visits_12month: 6,
+      },
+      {
+        provider: "Burton_Bev",
+        visits_1month: 304,
+        visits_3month: 1103,
+        visits_6month: 2288,
+        visits_12month: 4478,
+      },
+      {
+        provider: "Burton_Tracy",
+        visits_1month: 386,
+        visits_3month: 1210,
+        visits_6month: 2449,
+        visits_12month: 4627,
+      },
+      {
+        provider: "Craig_Tess",
+        visits_1month: 10,
+        visits_3month: 21,
+        visits_6month: 43,
+        visits_12month: 51,
+      },
+      {
+        provider: "Dolan_Cheryl",
+        visits_1month: 87,
+        visits_3month: 206,
+        visits_6month: 413,
+        visits_12month: 870,
+      },
+      {
+        provider: "Gelber_Tobias",
+        visits_1month: 0,
+        visits_3month: 0,
+        visits_6month: 1,
+        visits_12month: 694,
+      },
+      {
+        provider: "Gerber_Susan",
+        visits_1month: 78,
+        visits_3month: 246,
+        visits_6month: 443,
+        visits_12month: 899,
+      },
+      {
+        provider: "Hackett_Finola",
+        visits_1month: 0,
+        visits_3month: 14,
+        visits_6month: 14,
+        visits_12month: 14,
+      },
+      {
+        provider: "Kiss_Douglas",
+        visits_1month: 0,
+        visits_3month: 0,
+        visits_6month: 46,
+        visits_12month: 277,
+      },
+      {
+        provider: "Lach_Christopher",
+        visits_1month: 0,
+        visits_3month: 0,
+        visits_6month: 782,
+        visits_12month: 1437,
+      },
+      {
+        provider: "Lewis_Larissa",
+        visits_1month: 11,
+        visits_3month: 23,
+        visits_6month: 49,
+        visits_12month: 85,
+      },
+      {
+        provider: "Mitchell_Cathy",
+        visits_1month: 24,
+        visits_3month: 94,
+        visits_6month: 190,
+        visits_12month: 379,
+      },
+      {
+        provider: "Parker_Gavin",
+        visits_1month: 221,
+        visits_3month: 725,
+        visits_6month: 1483,
+        visits_12month: 3365,
+      },
+      {
+        provider: "Quick_Jacqueline",
+        visits_1month: 11,
+        visits_3month: 42,
+        visits_6month: 64,
+        visits_12month: 118,
+      },
+      {
+        provider: "Reeves_Janine",
+        visits_1month: 0,
+        visits_3month: 0,
+        visits_6month: 0,
+        visits_12month: 480,
+      },
+      {
+        provider: "Rommens_Ashley",
+        visits_1month: 193,
+        visits_3month: 518,
+        visits_6month: 1131,
+        visits_12month: 2394,
+      },
+      {
+        provider: "Shamsi_Shahrab_Parisa",
+        visits_1month: 0,
+        visits_3month: 0,
+        visits_6month: 0,
+        visits_12month: 17,
+      },
+      {
+        provider: "Stephens_Mark",
+        visits_1month: 6,
+        visits_3month: 144,
+        visits_6month: 256,
+        visits_12month: 256,
+      },
+      {
+        provider: "Van_Bussel_Jared",
+        visits_1month: 174,
+        visits_3month: 531,
+        visits_6month: 1259,
+        visits_12month: 2642,
+      },
+      {
+        provider: "Z_TOTAL",
+        visits_1month: 1712,
+        visits_3month: 5379,
+        visits_6month: 11742,
+        visits_12month: 24472,
+      },
+
+    ]
+  }
+
+]);
+
 </script>
 <template>
   <div class="reports">
@@ -618,16 +948,34 @@ const repertoires = ref([
       {{ tab }}
     </button>
 
-    <component :is="tabs[currentTab]" class="tab" :repertoires=repertoires :physicians=physicians></component>
+    <component :is="tabs[currentTab]" class="tab" :repertoires=repertoires :noshows=noshows :physicians=physicians :visits=visits></component>
     
   </div>
 </template>
 
-<style scoped>
+<style>
 @media (min-width: 1024px) {
   .reports {
     min-height: 100vh;
     align-items: center;
   }
+}
+.flex-column {
+  margin-top: 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-gap: 15px;
+}
+
+.column-item {
+  padding: 0px;
+  margin-top:1px;
+}
+.rptWrap {
+  border: 1px solid hsla(160, 100%, 37%, 0.5);
+  border-bottom: 0px;
+  margin-top: 0px;
+  padding: 6px;
 }
 </style>
