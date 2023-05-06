@@ -386,7 +386,7 @@ Regular screening will be done to all patients that need them. If your screening
       </ul>
 
     <p class="article">These patients will need to be seen by a physician. </p>
-    </p>
+ 
     <p class="article">
       If patients do not meet the above requirements then this would save valuable time for our doctors not having to make a phone call , LPN’s would be able to do this on their behalf. 
     </p>
