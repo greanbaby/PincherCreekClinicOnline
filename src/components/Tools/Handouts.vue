@@ -19,7 +19,7 @@
 
     <hr>
     
-    <p>Information linked below from <a href="http://www.pinchercreek.ca/">http://www.pinchercreek.ca/</a></p>
+    <p>Information linked below from <a href="http://www.pinchercreek.ca/" target="_blank">http://www.pinchercreek.ca/</a></p>
     <h1 class="Western">Community Food Centre </h1>
     <p>
     Emergency food hampers are available, please call or text 403 632 6716 or email foodcentrepc@gmail.ca

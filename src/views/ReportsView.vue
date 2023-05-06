@@ -25,9 +25,9 @@ const repertoires = ref([
   {
     time_period: new Date(2023,3,10),
     touchstones: [
-      // A_Rommens
+      // Ashley_Rommens
       {
-        physician: "A_Rommens",
+        physician: "Ashley_Rommens",
         BP_Numerator: 405,
         BP_Denominator: 962,
         CRC_Numerator: 164,
@@ -45,9 +45,9 @@ const repertoires = ref([
         Weight_Numerator: 622,
         Weight_Denominator: 962,
       },
-      // B_Burton
+      // Bev_Burton
       {
-        physician: "B_Burton",
+        physician: "Bev_Burton",
         BP_Numerator: 531,
         BP_Denominator: 1149,
         CRC_Numerator: 148,
@@ -85,9 +85,9 @@ const repertoires = ref([
         Weight_Numerator: 1114,
         Weight_Denominator: 1946,
       },
-      // G_Parker
+      // Gavin_Parker
       {
-        physician: "G_Parker",
+        physician: "Gavin_Parker",
         BP_Numerator: 423,
         BP_Denominator: 1374,
         CRC_Numerator: 180,
@@ -105,9 +105,9 @@ const repertoires = ref([
         Weight_Numerator: 713,
         Weight_Denominator: 1374,
       },
-      // J_Van_Bussel
+      // Jared_Van_Bussel
       {
-        physician: "J_Van_Bussel",
+        physician: "Jared_Van_Bussel",
         BP_Numerator: 287,
         BP_Denominator: 722,
         CRC_Numerator: 120,
@@ -125,9 +125,9 @@ const repertoires = ref([
         Weight_Numerator: 441,
         Weight_Denominator: 722,
       },
-      // T_Burton
+      // Tracy_Burton
       {
-        physician: "T_Burton",
+        physician: "Tracy_Burton",
         BP_Numerator: 546,
         BP_Denominator: 1203,
         CRC_Numerator: 184,
@@ -171,9 +171,9 @@ const repertoires = ref([
   {
     time_period: new Date(2023,2,7),
     touchstones: [
-      // A_Rommens
+      // Ashley_Rommens
       {
-        physician: "A_Rommens",
+        physician: "Ashley_Rommens",
         BP_Numerator: 0,
         BP_Denominator: 969,
         CRC_Numerator: 169,
@@ -191,9 +191,9 @@ const repertoires = ref([
         Weight_Numerator: 613,
         Weight_Denominator: 969,
       },
-      // B_Burton
+      // Bev_Burton
       {
-        physician: "B_Burton",
+        physician: "Bev_Burton",
         BP_Numerator: 0,
         BP_Denominator: 1156,
         CRC_Numerator: 153,
@@ -231,9 +231,9 @@ const repertoires = ref([
         Weight_Numerator: 1094,
         Weight_Denominator: 1941,
       },
-      // G_Parker
+      // Gavin_Parker
       {
-        physician: "G_Parker",
+        physician: "Gavin_Parker",
         BP_Numerator: 0,
         BP_Denominator: 1387,
         CRC_Numerator: 187,
@@ -251,9 +251,9 @@ const repertoires = ref([
         Weight_Numerator: 702,
         Weight_Denominator: 1387,
       },
-      // J_Van_Bussel
+      // Jared_Van_Bussel
       {
-        physician: "J_Van_Bussel",
+        physician: "Jared_Van_Bussel",
         BP_Numerator: 0,
         BP_Denominator: 719,
         CRC_Numerator: 115,
@@ -271,9 +271,9 @@ const repertoires = ref([
         Weight_Numerator: 434,
         Weight_Denominator: 719,
       },
-      // T_Burton
+      // Tracy_Burton
       {
-        physician: "T_Burton",
+        physician: "Tracy_Burton",
         BP_Numerator: 0,
         BP_Denominator: 1206,
         CRC_Numerator: 183,
@@ -317,9 +317,9 @@ const repertoires = ref([
     {
     time_period: new Date(2023,0,31),
     touchstones: [
-      // A_Rommens
+      // Ashley_Rommens
       {
-        physician: "A_Rommens",
+        physician: "Ashley_Rommens",
         BP_Numerator: 399,
         BP_Denominator: 989,
         CRC_Numerator: 171,
@@ -337,9 +337,9 @@ const repertoires = ref([
         Weight_Numerator: 629,
         Weight_Denominator: 989,
       },
-      // B_Burton
+      // Bev_Burton
       {
-        physician: "B_Burton",
+        physician: "Bev_Burton",
         BP_Numerator: 533,
         BP_Denominator: 1161,
         CRC_Numerator: 155,
@@ -377,9 +377,9 @@ const repertoires = ref([
         Weight_Numerator: 1119,
         Weight_Denominator: 1990,
       },
-      // G_Parker
+      // Gavin_Parker
       {
-        physician: "G_Parker",
+        physician: "Gavin_Parker",
         BP_Numerator: 390,
         BP_Denominator: 1407,
         CRC_Numerator: 189,
@@ -397,9 +397,9 @@ const repertoires = ref([
         Weight_Numerator: 735,
         Weight_Denominator: 1407,
       },
-      // J_Van_Bussel
+      // Jared_Van_Bussel
       {
-        physician: "J_Van_Bussel",
+        physician: "Jared_Van_Bussel",
         BP_Numerator: 266,
         BP_Denominator: 726,
         CRC_Numerator: 115,
@@ -417,9 +417,9 @@ const repertoires = ref([
         Weight_Numerator: 437,
         Weight_Denominator: 726,
       },
-      // T_Burton
+      // Tracy_Burton
       {
-        physician: "T_Burton",
+        physician: "Tracy_Burton",
         BP_Numerator: 542,
         BP_Denominator: 1228,
         CRC_Numerator: 190,
@@ -463,9 +463,9 @@ const repertoires = ref([
   {
     time_period: new Date(2022,11,29),
     touchstones: [
-      // A_Rommens
+      // Ashley_Rommens
       {
-        physician: "A_Rommens",
+        physician: "Ashley_Rommens",
         BP_Numerator: 378,
         BP_Denominator: 997,
         CRC_Numerator: 171,
@@ -483,9 +483,9 @@ const repertoires = ref([
         Weight_Numerator: 649,
         Weight_Denominator: 997,
       },
-      // B_Burton
+      // Bev_Burton
       {
-        physician: "B_Burton",
+        physician: "Bev_Burton",
         BP_Numerator: 506,
         BP_Denominator: 1167,
         CRC_Numerator: 147,
@@ -523,9 +523,9 @@ const repertoires = ref([
         Weight_Numerator: 1120,
         Weight_Denominator: 1976,
       },
-      // G_Parker
+      // Gavin_Parker
       {
-        physician: "G_Parker",
+        physician: "Gavin_Parker",
         BP_Numerator: 365,
         BP_Denominator: 1442,
         CRC_Numerator: 190,
@@ -543,9 +543,9 @@ const repertoires = ref([
         Weight_Numerator: 777,
         Weight_Denominator: 1442,
       },
-      // J_Van_Bussel
+      // Jared_Van_Bussel
       {
-        physician: "J_Van_Bussel",
+        physician: "Jared_Van_Bussel",
         BP_Numerator: 256,
         BP_Denominator: 756,
         CRC_Numerator: 118,
@@ -563,9 +563,9 @@ const repertoires = ref([
         Weight_Numerator: 436,
         Weight_Denominator: 756,
       },
-      // T_Burton
+      // Tracy_Burton
       {
-        physician: "T_Burton",
+        physician: "Tracy_Burton",
         BP_Numerator: 522,
         BP_Denominator: 1238,
         CRC_Numerator: 201,

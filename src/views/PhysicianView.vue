@@ -40,9 +40,6 @@ defineProps(['physicians'])
 
 </template>
 <style scoped>
-h1 {
-  color: hsla(160, 100%, 37%, 1);
-}
 
 .flex-column {
   margin-top: 10px;

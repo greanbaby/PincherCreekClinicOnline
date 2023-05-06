@@ -14,29 +14,29 @@ import { ref, computed } from 'vue'
  * where img is the url link to the /public folder to their picture
  */
 const physicians = ref([ 
-  { name: 'A_Rommens',
+  { name: 'Ashley_Rommens',
     img: '/physicians/A_Rommens.jpg',
-    panelsize: 1011
+    panelsize: 1327
   },
-  { name: 'B_Burton',
+  { name: 'Bev_Burton',
     img: '/physicians/B_Burton.jpg',
-    panelsize: 1211
+    panelsize: 1609
   },
   { name: 'Clinic_Panel',
     img: '/physicians/Clinic_Panel.jpg',
-    panelsize: 2011
+    panelsize: 2472
   },
-  { name: 'G_Parker',
+  { name: 'Gavin_Parker',
     img: '/physicians/G_Parker.jpg',
-    panelsize: 1311
+    panelsize: 1614
   },
-  { name: 'J_Van_Bussel',
+  { name: 'Jared_Van_Bussel',
     img: '/physicians/J_Van_Bussel.jpg',
-    panelsize: 911
+    panelsize: 906
   },
-  { name: 'T_Burton',
+  { name: 'Tracy_Burton',
     img: '/physicians/T_Burton.jpg',
-    panelsize: 1014
+    panelsize: 1612
   },
   { name: 'TOTAL',
     img: '/team.svg',
@@ -96,6 +96,9 @@ function changePic() {
 body {
   color: #222;
   background-color: white;
+}
+h1,h2,h3,h4 {
+  color: hsla(160, 100%, 37%, 1);
 }
 header {
   line-height: 1.5;
