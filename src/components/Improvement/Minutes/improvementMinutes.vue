@@ -384,6 +384,7 @@ Regular screening will be done to all patients that need them. If your screening
         <li>Has had one urinary tract infection already within the month </li>
         <li>Catheter patients </li>
       </ul>
+    </p>
 
     <p class="article">These patients will need to be seen by a physician. </p>
  
