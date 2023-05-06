@@ -40,7 +40,7 @@ const physicians = ref([
   },
   { name: 'TOTAL',
     img: '/team.svg',
-    panelsize: 9011
+    panelsize: 9542
   }
 ]);
 
