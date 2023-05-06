@@ -14,6 +14,82 @@
   <h3 class="no-print">CTRL-HOME returns to top</h3>
 
   <section class="meeting">
+    <h2>April 27, 2023</h2>
+    <p class="tit">Cryotherapy Update</p>
+    <p class="uti">LPNs are now doing cryotherapy appointments</p>
+    <ul>
+      <li>1st spray double-booked with doctor </li>
+      <li>Follow-up sprays done by LPN</li>
+    </ul>
+
+    <p class="tit">Connect Care Discussion</p>
+    <ul>
+      <li>Discussion on the new labs forms from Dynalife</li>
+      <li>The ordering provider will need to be on the lab requisition forms. Also make sure their name is on the form</li>
+      <li>If any other person is filling out a lab requisition please make sure the doctors name is on the form and not our personal names</li>
+      <li>Doc.com for clinic paneled patients and family doc to be on lab requisitions for follow-up lab work especially if locums are working in the ER</li>
+    </ul>
+
+    <p class="tit">Pre-Natal Clinic LRH</p>
+    <ul>
+      <li>Will need the prenatal lists in advance to ensure those referrals are happening at the 26 week mark and then returning to clinic. Scott has been working on this list</li>
+      <li>Prenatal clinic at the LRH are for those patients 26 + weeks. OB/ GYN doctors will see patients once they are past 34+ weeks</li>
+      <li>Referrals for the LRH Prenatal clinic are being sent through the Breast/ Cervical Health Clinic. Transcription is aware of this process</li>
+      <li>1.	&nbsp;&nbsp;&nbsp;Initial visit @ 26 weeks @ LRH prenatal clinic </li>
+      <li>2.	&nbsp;&nbsp;&nbsp;Follow-up visits can/ will be held at the patients home clinic </li>
+      <li>3.	&nbsp;&nbsp;&nbsp;After 34+ weeks you will see the OB/GYN in Lethbridge </li>
+    </ul>
+
+
+    <p class="tit">Pre-Natal Pincher Creek</p>
+    <ul>
+      <li>Booking regular scheduled follow-ups -- suggestions</li>
+      <li>Clinic panel pts that have not followed or no showed and tracking same. Scott is working on a list to identify these patients for reception to call</li>
+      <li>LPN are booking 30 min intervals for seeing prenatal patients. We have seen an increase in walk in patients for confirming prenatals</li>
+      <li>Overall this process is working great for the LPNs and doctors </li> 
+    </ul>
+
+
+    <p class="tit">Process change for booking Holter Monitor & Blood Pressure Monitors</p>
+    <ul>
+      <li>Since Lorna was away for a month we have been notified that Lorna will be booking the holter and blood pressure monitors. Reception prints off the tickler sent by the doctor and they attach a patient label and fax to the hospital</li>
+      <li>Reception would like to make sure that we are receiving a date and time for the patients appt to get the Holter and blood pressure monitors done from Lorna at the hospital. This way we can complete the ticker with this information</li>
+      <li>Lorna at the PC Hospital will book the appointments and phone the patients</li>
+    </ul>
+
+
+    <p class="tit">Process for Screening Follow-Up</p>
+    <p>We did have a long discussion on this topic. A more specific way of measuring will be decided.  Some suggestions were comparing how many paps we do monthly? Are we increasing that number each month?  
+We would compare this from the previous year – Jan to March 2022 compared to Jan-March 2023 , have we improved? 
+    </p>
+    <p>Differentiating between regular screening and a follow up; ie when pts fall out of the screening parameters they become a follow up with a tickler
+When their screening is normal they continue to stay on the regular follow up list without a tickler
+    </p>
+    <p>Scott is trying an out of parameter list with the PAPs
+New list made to identify those pts without a a tickler that present outside normal screening
+Can work this into our other preventions as well
+    </p>
+    <p>LPNs are tagging patients who are due for what screening prior to them being seen in clinic. 
+Regular screening will be done to all patients that need them. If your screening is abnormal you are no longer required to do screening but will become a follow-up and a tickler is then generated. 
+    </p>
+
+
+    <p class="tit">Heart failure follow ups post discharge; 24 hour BP follow ups</p>
+    <ul>
+      <li>This topic was tabled until next meeting</li>
+    </ul>
+
+
+    <p class="tit">PCN Update</p>
+    <ul>
+      <li>Robyn discussed patients downloading the app- MyHealthRecords – post  cards and posters are now available</li>
+      <li>May 3 at noon there will be a FAST program update </li>
+    </ul>
+
+
+
+  </section>
+  <section class="meeting">
     <h2>March 23, 2023</h2>
     <p class="tit">URINARY TRACT INFECTION Process</p>
     <ul>
