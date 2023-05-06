@@ -23,7 +23,7 @@ defineProps(['physicians'])
 </script>
 <template>
   <div class="physician">
-    <h1>Physician page is under construction</h1>
+    <h1>Physicians</h1>
     <div class="doctorsdisplay flex-column">
       <div v-for="doc in physicians" :key="doc" class="doc column-item">
         
@@ -31,7 +31,8 @@ defineProps(['physicians'])
           v-bind:src="doc.img" 
           v-bind:alt="doc.name"
           class="small_image_display"><br>
-        <small>{{ doc.name }}</small>
+        <small>{{ doc.name }}</small><br>
+        <small>{{ doc.panelsize.toLocaleString() }} patients</small>
         
       </div>
     </div>
@@ -39,6 +40,10 @@ defineProps(['physicians'])
 
 </template>
 <style scoped>
+h1 {
+  color: hsla(160, 100%, 37%, 1);
+}
+
 .flex-column {
   margin-top: 10px;
   display: grid;

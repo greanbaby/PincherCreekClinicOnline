@@ -15,25 +15,32 @@ import { ref, computed } from 'vue'
  */
 const physicians = ref([ 
   { name: 'A_Rommens',
-    img: '/physicians/A_Rommens.jpg'
+    img: '/physicians/A_Rommens.jpg',
+    panelsize: 1011
   },
   { name: 'B_Burton',
-    img: '/physicians/B_Burton.jpg'
+    img: '/physicians/B_Burton.jpg',
+    panelsize: 1211
   },
   { name: 'Clinic_Panel',
-    img: '/physicians/Clinic_Panel.jpg'
+    img: '/physicians/Clinic_Panel.jpg',
+    panelsize: 2011
   },
   { name: 'G_Parker',
-    img: '/physicians/G_Parker.jpg'
+    img: '/physicians/G_Parker.jpg',
+    panelsize: 1311
   },
   { name: 'J_Van_Bussel',
-    img: '/physicians/J_Van_Bussel.jpg'
+    img: '/physicians/J_Van_Bussel.jpg',
+    panelsize: 911
   },
   { name: 'T_Burton',
-    img: '/physicians/T_Burton.jpg'
+    img: '/physicians/T_Burton.jpg',
+    panelsize: 1014
   },
   { name: 'TOTAL',
-    img: '/team.svg'
+    img: '/team.svg',
+    panelsize: 9011
   }
 ]);
 
@@ -68,7 +75,7 @@ function changePic() {
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/improvement">Improvement</RouterLink>
-        <RouterLink to="/physician">Physician</RouterLink>
+        <RouterLink to="/physician">Physicians</RouterLink>
         <RouterLink to="/reports">Reports</RouterLink>
         <RouterLink to="/tools">Tools</RouterLink>
       </nav>
