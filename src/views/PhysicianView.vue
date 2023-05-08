@@ -23,11 +23,7 @@ defineProps(['physicians'])
 </script>
 <template>
   <div class="physician">
-<<<<<<< HEAD
-   
-=======
-    <h1>Physicians</h1>
->>>>>>> b87491868de41cf483788520b807b8bcc63ca999
+
     <div class="doctorsdisplay flex-column">
       <div v-for="doc in physicians" :key="doc" class="doc column-item">
         
