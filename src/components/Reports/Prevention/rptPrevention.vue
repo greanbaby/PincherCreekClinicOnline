@@ -12,14 +12,10 @@
  */
 import ReportGraph from '/src/components/Reports/Prevention/rptGraphPreventions.vue';
 import ReportAdults from '/src/components/Reports/Prevention/rptPatients18AndOlder.vue';
-
 import { reactive, computed } from 'vue';
-
 const datechosen = reactive({ datevalue: 'Mon Apr 10 2023' });
 const docchosen = reactive({ docvalue: 'TOTAL' });
-
 const myProps = defineProps([ 'repertoires', 'physicians' ]);
-
 /**
  * chosenReportDetails COMPUTED VALUE
  * Will contain only the touchstones to be displayed for the selected year and physician
@@ -30,7 +26,6 @@ const chosenReportDetails = computed(() => {
   let singleDoc = singleDateTouchstones.filter(item => item.physician === docchosen.docvalue);
   return singleDoc[0];
 });
-
 /**
  * chosenReportTotals COMPUTED VALUE
  * Will contain the touchstones to be displayed for the selected year for TOTAL
@@ -41,16 +36,26 @@ const chosenReportDetails = computed(() => {
   let totalDoc = singleDateTouchstones.filter(item => item.physician === 'TOTAL');
   return totalDoc[0];
 });
-
-
 </script>
 <template>
   <div class="rptWrap">
     <div class="flex-column">
       <div class="column-item">
+        <h3>{{ docchosen.docvalue }} &nbsp;{{ datechosen.datevalue }}</h3>
+        
         <img alt="EMR Report" src="@/assets/statistics.svg" width="100" height="100" />
       </div>
       <div class="column-item">
+        <p>CHOOSE PHYSICIAN:<br>
+        
+        <select v-model="docchosen.docvalue">
+          <option disabled value="">Please select one</option>
+          <option v-for="doc in physicians" :key="doc">
+            {{ doc.name }}
+          </option>
+        </select>
+
+        </p>
         <p>CHOOSE DATE:<br>
 
           <select v-model="datechosen.datevalue">
@@ -61,18 +66,6 @@ const chosenReportDetails = computed(() => {
           </select>
 
         </p>
-        <p>CHOOSE PHYSICIAN:<br>
-        
-        <select v-model="docchosen.docvalue">
-          <option disabled value="">Please select one</option>
-          <option v-for="doc in physicians" :key="doc">
-            {{ doc.name }}
-          </option>
-        </select>
-
-      </p>
-      </div>
-      <div class="column-item">
         
       </div>
     </div>
@@ -155,12 +148,7 @@ const chosenReportDetails = computed(() => {
         </tr>
 
       </tbody>
-      <!-- <tfoot>
-        <tr>
-          <th scope="row" colspan="2">{{ docchosen.docvalue }}</th>
-          <td colspan="2">{{ datechosen.datevalue }}</td>
-        </tr>
-      </tfoot> -->
+
     </table>
 
   </div>

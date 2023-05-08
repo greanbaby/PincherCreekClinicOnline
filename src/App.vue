@@ -8,45 +8,110 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloClinic from './components/HelloClinic.vue'
 import { ref, computed } from 'vue'
-
 /** physicians
  * physicians is an array of physician objects with name and img
  * where img is the url link to the /public folder to their picture
  */
 const physicians = ref([ 
-  { name: 'A_Rommens',
-    img: '/physicians/A_Rommens.jpg'
+  { name: 'Ashley_Rommens',
+    img: '/physicians/A_Rommens.jpg',
+    panelsize: 1327,
+    females: 846,
+    localresident: 1073,
+    overage49: 491,
+    seeninpast2yrs: 1052,
+    emailonfile: 462,
+    affiliated: 1166,
+    complexity: 2.13,
+    noshowrate: 7.7,
+    over2noshows: 7
   },
-  { name: 'B_Burton',
-    img: '/physicians/B_Burton.jpg'
+  { name: 'Bev_Burton',
+    img: '/physicians/B_Burton.jpg',
+    panelsize: 1609,
+    females: 1013,
+    localresident: 1351,
+    overage49: 566,
+    seeninpast2yrs: 1321,
+    emailonfile: 454,
+    affiliated: 1356,
+    complexity: 2.63,
+    noshowrate: 6.1,
+    over2noshows: 13
   },
   { name: 'Clinic_Panel',
-    img: '/physicians/Clinic_Panel.jpg'
+    img: '/physicians/Clinic_Panel.jpg',
+    panelsize: 2472,
+    females: 1136,
+    localresident: 2104,
+    overage49: 979,
+    seeninpast2yrs: 1826,
+    emailonfile: 570,
+    affiliated: 1979,
+    complexity: 1.70,
+    noshowrate: 5.8,
+    over2noshows: 5
   },
-  { name: 'G_Parker',
-    img: '/physicians/G_Parker.jpg'
+  { name: 'Gavin_Parker',
+    img: '/physicians/G_Parker.jpg',
+    panelsize: 1614,
+    females: 683,
+    localresident: 1349,
+    overage49: 796,
+    seeninpast2yrs: 1349,
+    emailonfile: 537,
+    affiliated: 1339,
+    complexity: 2.20,
+    noshowrate: 10.3,
+    over2noshows: 16
   },
-  { name: 'J_Van_Bussel',
-    img: '/physicians/J_Van_Bussel.jpg'
+  { name: 'Jared_Van_Bussel',
+    img: '/physicians/J_Van_Bussel.jpg',
+    panelsize: 906,
+    females: 380,
+    localresident: 779,
+    overage49: 415,
+    seeninpast2yrs: 712,
+    emailonfile: 209,
+    affiliated: 722,
+    complexity: 1.91,
+    noshowrate: 3.4,
+    over2noshows: 2
   },
-  { name: 'T_Burton',
-    img: '/physicians/T_Burton.jpg'
+  { name: 'Tracy_Burton',
+    img: '/physicians/T_Burton.jpg',
+    panelsize: 1612,
+    females: 1006,
+    localresident: 1383,
+    overage49: 625,
+    seeninpast2yrs: 1341,
+    emailonfile: 485,
+    affiliated: 1363,
+    complexity: 2.79,
+    noshowrate: 3.5,
+    over2noshows: 7
   },
   { name: 'TOTAL',
-    img: '/team.svg'
+    img: '/team.svg',
+    panelsize: 9542,
+    females: 5067,
+    localresident: 8039,
+    overage49: 3872,
+    seeninpast2yrs: 7601,
+    emailonfile: 2717,
+    affiliated: 7926,
+    complexity: 2.56,
+    noshowrate: 6.0,
+    over2noshows: 50
   }
 ]);
-
 const seedAI = 78; // Number of images in the /public/ai folder
-
 // randomNumber determines which image is displayed
 let randomNumber = ref((Math.floor(Math.random() * seedAI) + 1));
-
 // COMPUTED randomNumberSource to get string url to randomNumber image
 const randomNumberSource = computed(() => {
   return '/ai/' + randomNumber.value + '.jpg';
 });
-
 // changePic is called every time somebody clicks the image
 function changePic() {
   if (randomNumber.value === seedAI) {
@@ -68,7 +133,7 @@ function changePic() {
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/improvement">Improvement</RouterLink>
-        <RouterLink to="/physician">Physician</RouterLink>
+        <RouterLink to="/physician">Physicians</RouterLink>
         <RouterLink to="/reports">Reports</RouterLink>
         <RouterLink to="/tools">Tools</RouterLink>
       </nav>
@@ -89,6 +154,9 @@ function changePic() {
 body {
   color: #222;
   background-color: white;
+}
+h1,h2,h3,h4 {
+  color: hsla(160, 100%, 37%, 1);
 }
 header {
   line-height: 1.5;
